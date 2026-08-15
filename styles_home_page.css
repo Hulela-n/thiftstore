@@ -36,8 +36,21 @@ h1.top_banner2 {
     color: white;
     border-radius: 5vw;
     animation: backflip 5s linear infinite; 
+    position: relative;
+    z-index: 1;
+
 }
 }
+
+@keyframes backflip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-360deg);
+  }
+}
+
 
 @media (min-width: 1240px) {
     img.top_banner1 {
@@ -74,7 +87,7 @@ h1.top_banner2 {
 
 @media (min-width: 360px) {
     img.body {
-        width: 70%;
+        width: 60%;
         height: 40%;
         border-radius: 5vw;
         margin: 2% 0% 0% 18%;
@@ -87,19 +100,51 @@ h1.top_banner2 {
 @media (min-width: 360px) {
     div.body {
         background-image: url("https://i.pinimg.com/1200x/43/18/7a/43187a495a10a5b7fa5aa68ab64acfcc.jpg");
-        margin: 20% 15% 0% 15%;
+        margin: 15% 15% 0% 15%;
         padding: 0% 0% 0% 0%;
         border-radius: 2vw;
     }
 }
 
 
-@keyframes backflip {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(-360deg);
-  }
+
+div.menu {
+    position: fixed;
+    transform: translateX(-200%);
+    transition: ease-in-out 1s;
+    background-color: white;
+    margin: 0% 20% 0% 0ch;
+    padding: 20% 40% 200% 0%;
+    border-radius: 2vw;
+    background-color: #ab3636;
+    border-color: aliceblue;
+    border-width: 20%;
+
 }
 
+div.menu.slide {
+    transform: translateX(0%);
+    z-index: 10;
+}
+
+img.close {
+    width: 20%;
+    height: 20%;
+}
+
+
+
+button.menu {
+        margin: 30% 0% 0% 50%;
+        padding: 10% 30% 10% 30%;
+        border-radius:  2vw;
+        color: white;
+        background-color: #942222;
+}
+
+img.close {
+        margin: 30% 0% 5% 70%;
+        padding: 0% 0% 0% 0%;
+        width: 40%;
+        height: 40%;
+}

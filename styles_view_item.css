@@ -1,0 +1,48 @@
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:#942222
+}
+
+
+@media (min-width: 360px) {
+img.top_banner2 {
+    margin: 0% 0% 0% 9%;
+    padding: 0% 0% 0% 0%;
+    width: 30%;
+    height: 30%;
+}
+}
+
+@media (min-width: 360px) {
+img.top_banner1 {
+    margin: 0% 0% 0% 2%;
+    padding: 0% 0% 0% 0%;
+    width: 15%;
+    height: 15%;
+}
+}
+
+@media (min-width: 360px) {
+img.top_banner3 {
+    margin: 0% 0% 0% 4%;
+    padding: 0% 0% 0% 0%;
+    width: 20%;
+    height: 20%;
+}
+}
+
+
+div.body {
+    background-color: black;
+    border-radius: 2vw;
+}
+
+button.checkout {
+    margin: 0% 0% 0% 30%;
+    padding: 6% 6% 6% 6%;
+    font-size: larger
+}
