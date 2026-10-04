@@ -12,8 +12,11 @@ function displayCart() {
 
     cart.forEach((item, index) => {
         html += `<div styles="display: flexbox">
+                    <span style="display:block">
                     <img style="width:30%; height:30%; border-radius:2vw "  src="${item.image}">
-                    <button style="margin: 0% 0% 0% 40%; padding:2% 2% 2% 2%;" onclick="removeItem('${}')">Remove</button>
+                    <p>${item.price}</p>
+                    </span>
+                    <button style="margin: 0% 0% 0% 40%; padding:2% 2% 2% 2%;" onclick="removeItem('${item}')">Remove</button>
                 </div>`;
         total += item.price
         html += '</ul>'
@@ -21,7 +24,6 @@ function displayCart() {
 
     body.innerHTML = html;
     document.getElementById('total').textContent = `R${total.toFixed(2)}`;
-
     localStorage.setItem('total', total)
 }
 

@@ -6,3 +6,58 @@
 body {
     background-color:#942222
 }
+
+
+div.main {
+    background-color: black;
+    margin: 50% 10% 0% 10%;
+    padding: 0% 0% 0% 0%;
+    border-radius: 2vw;
+}
+
+span.button {
+    display: block;
+    margin: 10% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+button.first {
+    margin: 0% 0% 5% 25%;
+    padding: 2% 6% 2% 6%;
+    background-color: aliceblue;
+}
+
+button.second {
+    margin: 0% 0% 5% 0%;
+    padding: 2% 2% 2% 2%;
+    background-color: aliceblue;
+}
+
+img.main {
+    animation: backflip 10s linear infinite;
+    width: 40%;
+    margin: 0% 10% 0% 30%;
+    padding: 0% 0% 0% 0%;
+
+}
+
+@keyframes backflip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-360deg);
+  }
+}
+
+span.body {
+    display: block;
+}
+
+
+p.top {
+    margin: 10% 10% 0% 30%;
+    padding: 0% 0% 0% 0%;
+    color: white;
+
+}

@@ -9,15 +9,15 @@ function addToCart() {
 
     else {
             let cart = JSON.parse(localStorage.getItem('cart')) || [];
-            const existingItem = cart.find(item => item.product === itemP.product);
+            const existingItem = cart.find(item => item.product === itemP.product)7;
 
             if (existingItem) {
-                alert(`${existingItem.product} already in your cart`);
+                alert(`${existingItem.product} ALREADY IN YOUR CART`);
                 window.location.href= 'home_page.html';}
             else {
                 cart.push(itemP);
                 localStorage.setItem('cart', JSON.stringify(cart));
-                alert(`${itemP.product} added to your cart`);
+                alert(`${itemP.product} ADDED TO YOUR CART`);
                 window.location.href= 'checkout_page.html';}
     }
 }
