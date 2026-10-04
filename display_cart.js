@@ -10,24 +10,28 @@ function displayCart() {
         document.getElementById('price').textContent = 'R0'
     }
 
+
     cart.forEach((item, index) => {
-        html += `<div style="display: block">
-                    <img style="width:30%; height:30%; border-radius:2vw "  src="${item.image}">
-                    <p style="color: white; margin: 0% 20% 0% 8%;" >R ${item.price}</p>
-                    <button style="margin: 0% 0% 0% 40%; padding:2% 2% 2% 2%;" onclick="removeItem('${item}')">Remove</button>
+        html += `<div style="display: flex; margin: 0% 0% 0% 0%; padding:0% 0% 0% 0%; ">
+                    <span style="width:690%">
+                    <img style="width:30%; height:30%; border-radius:2vw; width:50%; height:50% "  src="${item.image}">
+                    <p style="color: white; margin: 0% 20% 0% 15%;" >R ${item.price}</p>
+                    </span>
+                    <button style="display: flexbox; margin: 10% 20% 50% 0%; padding:2% 2% 2% 2%;" onclick="removeItem(${index})">Remove</button>
                 </div>`;
         total += item.price
-        html += '</ul>'
     });
-
+    
+    html+= '</ul>'
     body.innerHTML = html;
-    document.getElementById('total').textContent = `R${total.toFixed(2)}`;
-    localStorage.setItem('total', total)
+    document.getElementById('total').textContent(`${total.toFixed(2)}`)
+    localStorage.setItem('total', total);
+
 }
 
-function removeItem(item) {
+function removeItem(index) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    cart.splice(item.product);
+    cart.splice(index, 1);
     localStorage.setItem('cart', JSON.stringify(cart));
     displayCart();
 
