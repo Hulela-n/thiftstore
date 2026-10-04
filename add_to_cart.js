@@ -1,11 +1,10 @@
 function addToCart() {
     const itemP = JSON.parse(localStorage.getItem('myProducts'));
-
+    
     if (!itemP) {
         alert(`No items to be added`);
-        return;
+        return;}
 
-    }
 
     else {
             let cart = JSON.parse(localStorage.getItem('cart')) || [];
