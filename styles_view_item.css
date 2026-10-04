@@ -10,7 +10,7 @@ body {
 
 @media (min-width: 360px) {
 img.top_banner2 {
-    margin: 0% 0% 0% 9%;
+    margin: 0% 0% 0% 18%;
     padding: 0% 0% 0% 0%;
     width: 30%;
     height: 30%;
@@ -28,21 +28,52 @@ img.top_banner1 {
 
 @media (min-width: 360px) {
 img.top_banner3 {
-    margin: 0% 0% 0% 4%;
+    margin: 0% 0% 0% 9%;
     padding: 0% 0% 0% 0%;
     width: 20%;
     height: 20%;
 }
 }
 
-
-div.body {
+@media (min-width: 360px) {
+    div.body {
     background-color: black;
     border-radius: 2vw;
+    margin: 10% 0% 0% 4%;
+    padding: 0% 0% 0% 0%;
+}
 }
 
+@media (min-width: 360px) {
 button.checkout {
-    margin: 0% 0% 0% 30%;
+    margin: 10% 0% 0% 30%;
     padding: 6% 6% 6% 6%;
     font-size: larger
+}
+}
+
+@media (min-width: 360px) {
+    p.body {
+    color: white;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    text-align: center;
+    }
+}
+
+@media (min-width: 360px) {
+    img.body {
+        width: 40%;
+        height: 40%;
+        border-radius: 2vw;
+        margin: 10% 0% 0% 30%;
+        padding: 0% 0% 0% 0%;
+    }
+}
+
+@media (min-width: 360px) {
+    span.body {
+    margin: 10% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    }
 }

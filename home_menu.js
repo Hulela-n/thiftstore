@@ -12,3 +12,8 @@ function closeMenu() {
 
 button.addEventListener('click', openMenu)
 close.addEventListener('click', closeMenu)
+
+
+function cart() {
+    window.location.href = 'cart_page.html'
+}

@@ -1,0 +1,59 @@
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:#942222
+}
+
+
+@media (min-width: 360px) {
+    @keyframes turn {
+        0% {
+            transform: rotateY(0deg)}
+        100% {
+            transform: rotateY(360deg)};
+
+    }
+
+}
+
+
+@media (min-width: 360px) {
+    img.top_banner1 {
+        animation: turn 3s linear infinite;
+        margin: 0% 0% 0% 37%;
+
+    }
+}
+
+
+@media (min-width: 360px) {
+    img.bottom {
+        margin: 80% 0% 0% 39%;
+        width: 20%;
+        height: 20%;
+    }
+}
+
+
+@media (min-width: 360px) {
+    div.body {
+        margin: 20% 0% 0% 10%;
+        padding: 5% 0% 5% 0%;
+        background-color: black;
+        border-radius: 2vw;
+    }
+}
+
+@media (min-width: 360px) {
+    p.body {
+        margin: 0% 40% 0% 40%;
+        text-align: center;
+        color: white;
+        background-color: black;
+        border-radius: 2vw;
+        
+    }
+}
