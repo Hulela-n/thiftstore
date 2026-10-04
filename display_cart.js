@@ -11,11 +11,9 @@ function displayCart() {
     }
 
     cart.forEach((item, index) => {
-        html += `<div styles="display: flexbox">
-                    <span style="display:block">
+        html += `<div style="display: block">
                     <img style="width:30%; height:30%; border-radius:2vw "  src="${item.image}">
-                    <p>${item.price}</p>
-                    </span>
+                    <p style="color: white; margin: 0% 20% 0% 8%;" >R ${item.price}</p>
                     <button style="margin: 0% 0% 0% 40%; padding:2% 2% 2% 2%;" onclick="removeItem('${item}')">Remove</button>
                 </div>`;
         total += item.price
@@ -29,7 +27,7 @@ function displayCart() {
 
 function removeItem(item) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    cart.splice(item);
+    cart.splice(item.product);
     localStorage.setItem('cart', JSON.stringify(cart));
     displayCart();
 

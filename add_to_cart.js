@@ -1,6 +1,6 @@
 function addToCart() {
     const itemP = JSON.parse(localStorage.getItem('myProducts'));
-    
+
     if (!itemP) {
         alert(`No items to be added`);
         return;}
@@ -8,7 +8,7 @@ function addToCart() {
 
     else {
             let cart = JSON.parse(localStorage.getItem('cart')) || [];
-            const existingItem = cart.find(item => item.product === itemP.product)7;
+            const existingItem = cart.find(item => item.product === itemP.product);
 
             if (existingItem) {
                 alert(`${existingItem.product} ALREADY IN YOUR CART`);
