@@ -100,7 +100,7 @@ h1.top_banner2 {
 @media (min-width: 360px) {
     div.body {
         background-image: url("https://i.pinimg.com/1200x/43/18/7a/43187a495a10a5b7fa5aa68ab64acfcc.jpg");
-        margin: 15% 15% 0% 15%;
+        margin: 20% 15% 0% 15%;
         padding: 0% 0% 0% 0%;
         border-radius: 2vw;
     }
@@ -134,16 +134,33 @@ img.close {
 
 
 
-button.menu {
-        margin: 30% 0% 0% 50%;
-        padding: 10% 30% 10% 30%;
+button.menu1 {
+        margin: 80% 0% 0% 10%;
+        padding: 15% 80% 15% 80%;
         border-radius:  2vw;
-        color: white;
-        background-color: #942222;
+        color: black;
+        background-color: white;
 }
 
+button.menu2 {
+        margin: 30% 0% 0% 10%;
+        padding: 15% 80% 15% 80%;
+        border-radius:  2vw;
+        color: black;
+        background-color: white;
+}
+
+button.menu3 {
+        margin: 30% 0% 0% 10%;
+        padding: 20% 85% 20% 85%;
+        border-radius:  2vw;
+        color: black;
+        background-color: white;
+}
+
+
 img.close {
-        margin: 30% 0% 5% 70%;
+        margin: 30% 0% 5% 90%;
         padding: 0% 0% 0% 0%;
         width: 40%;
         height: 40%;

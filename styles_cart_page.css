@@ -8,21 +8,9 @@ body {
 }
 
 
-@media (min-width: 360px) {
-    @keyframes turn {
-        0% {
-            transform: rotateY(0deg)}
-        100% {
-            transform: rotateY(360deg)};
-
-    }
-
-}
-
 
 @media (min-width: 360px) {
     img.top_banner1 {
-        animation: turn 3s linear infinite;
         margin: 0% 0% 0% 37%;
 
     }
@@ -31,7 +19,7 @@ body {
 
 @media (min-width: 360px) {
     img.bottom {
-        margin: 80% 0% 0% 39%;
+        margin: 10% 0% 0% 39%;
         width: 20%;
         height: 20%;
     }
@@ -40,23 +28,54 @@ body {
 
 @media (min-width: 360px) {
     div.body {
-        margin: 20% 0% 0% 10%;
-        padding: 5% 0% 5% 0%;
+        margin: 30% 2% 0% 5%;
+        padding: 20% 0% 20% 0%;
         background-color: black;
         border-radius: 2vw;
     }
 }
 
+
+@media (min-width: 360px) {
+    div.body.up {
+        margin: 50% 2% 0% 5%;
+        padding: 20% 0% 20% 0%;
+        background-color: black;
+        border-radius: 2vw;
+    }
+}
+
+
 @media (min-width: 360px) {
     p.body {
         margin: 0% 40% 0% 40%;
+        padding: 20% 0% 20% 0%;
         text-align: center;
         color: white;
         background-color: black;
-        border-radius: 2vw;
+        border-radius: 0vw;
         
     }
 }
 
 
+
+
+img.checkout {
+        width: 50%;
+        margin: 15% 40% 0% 20%;
+        padding: 2% 4% 2% 4%;
+        color: black;
+        animation: turn 10s linear infinite;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg)
+    }
+    
+}
 

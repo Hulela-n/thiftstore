@@ -13,8 +13,8 @@ function displayCart() {
 
     cart.forEach((item, index) => {
         html += `<div style="display: flex; margin: 0% 0% 0% 0%; padding:0% 0% 0% 0%; ">
-                    <span style="width:690%">
-                    <img style="width:30%; height:30%; border-radius:2vw; width:50%; height:50% "  src="${item.image}">
+                    <span>
+                    <img style="width:50%; height:50%; border-radius:2vw; width:50%; height:50% "  src="${item.image}">
                     <p style="color: white; margin: 0% 20% 0% 15%;" >R ${item.price}</p>
                     </span>
                     <button style="display: flexbox; margin: 10% 20% 50% 0%; padding:2% 2% 2% 2%;" onclick="removeItem(${index})">Remove</button>

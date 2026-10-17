@@ -9,15 +9,6 @@ body {
 
 
 @media (min-width: 360px) {
-img.top_banner2 {
-    margin: 0% 0% 0% 18%;
-    padding: 0% 0% 0% 0%;
-    width: 30%;
-    height: 30%;
-}
-}
-
-@media (min-width: 360px) {
 img.top_banner1 {
     margin: 0% 0% 0% 2%;
     padding: 0% 0% 0% 0%;
@@ -28,7 +19,7 @@ img.top_banner1 {
 
 @media (min-width: 360px) {
 img.top_banner3 {
-    margin: 0% 0% 0% 9%;
+    margin: 0% 0% 0% 60%;
     padding: 0% 0% 0% 0%;
     width: 20%;
     height: 20%;
@@ -39,7 +30,7 @@ img.top_banner3 {
     div.body {
     background-color: black;
     border-radius: 2vw;
-    margin: 10% 0% 0% 4%;
+    margin: 40% 0% 0% 4%;
     padding: 0% 0% 0% 0%;
 }
 }
