@@ -38,7 +38,7 @@ body {
 
 @media (min-width: 360px) {
     div.body.up {
-        margin: 50% 2% 0% 5%;
+        margin: 10% 2% 0% 5%;
         padding: 20% 0% 20% 0%;
         background-color: black;
         border-radius: 2vw;
@@ -58,6 +58,16 @@ body {
     }
 }
 
+@media (min-width: 360px) {
+    p.body1 {
+        margin: 10% 20% 0% 25%;
+        padding: 2% 4% 2% 4%;
+        text-align: center;
+        color: white;
+        border-radius: 2vw;
+        
+    }
+}
 
 
 
