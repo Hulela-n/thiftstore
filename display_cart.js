@@ -12,6 +12,7 @@ function displayCart() {
 
 
     cart.forEach((item, index) => {
+        total += item.price;
         html += `<div style="display: flex; margin: 0% 0% 0% 0%; padding:0% 0% 0% 0%; ">
                     <span>
                     <img style="width:50%; height:50%; border-radius:2vw; width:50%; height:50% "  src="${item.image}">
@@ -19,12 +20,11 @@ function displayCart() {
                     </span>
                     <button style="display: flexbox; margin: 10% 20% 50% 0%; padding:2% 2% 2% 2%;" onclick="removeItem(${index})">Remove</button>
                 </div>`;
-        total += item.price
     });
     
+    document.getElementById('total').textContent = `R ${total.toFixed(2)}`;
     html+= '</ul>'
     body.innerHTML = html;
-    document.getElementById('total').textContent(`${total.toFixed(2)}`)
     localStorage.setItem('total', total);
 
 }

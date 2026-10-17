@@ -11,25 +11,25 @@ body {
 div.main {
     background-color: black;
     margin: 20% 10% 0% 10%;
-    padding: 0% 0% 0% 0%;
+    padding: 5% 3% 5% 2%;
     border-radius: 2vw;
 }
 
 span.button {
     display: block;
-    margin: 10% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
     padding: 0% 0% 0% 0%;
 }
 
 button.first {
-    margin: 0% 0% 5% 25%;
-    padding: 2% 6% 2% 6%;
+    margin: 0% 0% 5% 18%;
+    padding: 2% 10% 2% 10%;
     background-color: aliceblue;
 }
 
 button.second {
     margin: 0% 0% 5% 0%;
-    padding: 2% 2% 2% 2%;
+    padding: 2% 3% 2% 3%;
     background-color: aliceblue;
 }
 
