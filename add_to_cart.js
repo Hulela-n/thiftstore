@@ -16,7 +16,6 @@ function addToCart() {
             else {
                 cart.push(itemP);
                 localStorage.setItem('cart', JSON.stringify(cart));
-                alert(`${itemP.product} ADDED TO YOUR CART`);
-                window.location.href= 'checkout_page.html';}
+                alert(`${itemP.product} ADDED TO YOUR CART`);}
     }
 }

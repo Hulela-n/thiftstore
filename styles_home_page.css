@@ -35,7 +35,7 @@ h1.top_banner2 {
     background-image: url("https://i.pinimg.com/736x/66/50/bf/6650bfdd146af8928c1b7bd451862448.jpg");
     color: white;
     border-radius: 5vw;
-    animation: backflip 5s linear infinite; 
+    animation: backflip 10s linear infinite; 
     position: relative;
     z-index: 1;
 

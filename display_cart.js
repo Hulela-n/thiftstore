@@ -7,7 +7,8 @@ function displayCart() {
 
     if (cart.length === 0) {
         body.innerHTML = '<p style="text-align: center; color: black; background-color: white; margin: 0% 20% 0% 20%; text-align: center; border-radius: 2vw">NO ITEMS TO DISPLAY</p>';
-        document.getElementById('price').textContent = 'R0'
+        document.getElementById('price').textContent = 'R0';
+        document.getElementById('total').textContent = 'R 0.00';
     }
 
 
