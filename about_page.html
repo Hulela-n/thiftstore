@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ABOUT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles_about_page.css"></link>
+</head>
+<body>
+  <main>
+    <div class="top">
+        <h1>ABOUT PAGE</h1>
+    </div>
+    <div class="main">
+        <div class="cards">
+            <p class="cards" onclick="showMessage1()" >WHO ARE WE?</p>
+                <p class="message1" id="message1">
+                    From Our Founder:
+                    
+                    Hulela Hampers was born in 2026, around my birthday, the 11th of May. I was in Potchefstrrom celebrating with my girlfriend
+                    I think it hit me while tutoring statistics to some students at UCT that the extra income does feel good. I had no direction on how else 
+                    I was going to make that extra income beyond tutoring. It was only after I thrifted a few shirts that I realised that i love thrifting but 
+                    i do not have the closet space for everything I buy. So naturally a thrift store as business would be nice. and i began working on my 
+                    first <a href="https://hulelahost.netlify.app/">prototype</a>.  Naturally as i became more busines focused I thought why not bring the market in 
+                    terms of clothing supply across the nine provinces within south africa. Existing infrasture has been built to make this possible I had to just design the business, build 
+                    the site and plug the business into existing Infrasture.
+                    <br><br>
+                    <img onclick="closeMessage1()" class="close" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+                </p>
+        </div>
+        <div class="cards">
+        <p class="cards" onclick="showMessage2()">WHY DO WE EXIST?</p>
+                <p class="message2" id="message2">We exist bridge the gap in fast fashion clothing supply across South Africa's nine provinces. Currently fast fashion clothing is in the hands of established 
+                    retailers that do not supply all the fast fashion in at the level of international retails. Consumers were naturally drawn to these
+                international retailers but with the introduction of tarrifs on those goods, South Africans became averse to this option. With our 'unique positioning' and deep market research
+            we are able to align oursleves and source this everchanging fast fashion, without added tarrifs for our services. 
+                <br><br>
+                <img onclick="closeMessage2()" class="close" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+                </p>
+        </div>
+    <div class="cards">
+        <p class="cards" onclick="showMessage3()">WHAT OTHER VENTURES DO WE HAVE?</p>
+            <p class="message3" id="message3">STAY TUNED!
+            <br><br>
+            <img onclick="closeMessage3()" class="close" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+
+            </p>
+    </div>
+    </div>
+     <div class="bottom">
+       <a href="index.html"><img class="bottom" id="button" src="https://img.icons8.com/?size=100&id=83326&format=png&color=000000"></a>
+    </div>
+  </main>
+  <script src="about_page.js"></script>
+</body>
+</html>

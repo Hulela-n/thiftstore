@@ -1,0 +1,87 @@
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:#942222
+}
+
+h1 {
+    background-color: orangered;
+    color: white;
+    margin: 5% 10% 0% 10% ;
+    padding: 4% 0% 4% 0%;
+    text-align: center;
+    border-radius:  2vw;
+}
+
+
+p.cards {
+    background-color: white;
+    text-align: center;
+    margin: 0% 10% 5% 10%;
+    padding: 4% 0% 4% 0%;
+
+
+
+}
+
+p.message1 {
+    background-color: wheat;
+    padding: 4% 0% 0% 4%;
+    margin: 0% 4% 4% 4%;
+    display: none;
+}
+
+
+p.message2 {
+    background-color: wheat;
+    padding: 4% 0% 0% 4%;
+    margin: 0% 4% 4% 4%;
+    display: none;
+}
+
+p.message3 {
+    background-color: wheat;
+    padding: 4% 0% 0% 4%;
+    margin: 0% 4% 4% 4%;
+    display: none;
+}
+
+p.message1.show {
+    display: block;
+}
+
+
+p.message2.show {
+    display: block;
+}
+
+
+p.message3.show {
+    display: block;
+}
+
+
+
+div.main {
+    background-color: orangered;
+    margin: 50% 0% 0% 0%;
+    padding: 10% 0% 10% 0%;
+    border-radius: 1vw;
+
+}
+
+img.bottom {
+    margin: 20% 0% 0% 40% ;
+    padding: 0% 0% 0% 0%;
+    width: 20%;
+}
+
+
+img.close {
+    width: 10%;
+    margin: 4% 0% 4% 31% ;
+    padding: 3% 14% 3% 14%;
+}
