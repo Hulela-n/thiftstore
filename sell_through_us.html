@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SELL THROUGH US</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles_sell_through_us.css"></link>
+</head>
+<body>
+  <main>
+    <div class="top">
+        <h1>SELL THROUGH HULELA HAMPERS</h1>
+    </div>
+    <div class="disclaimer">
+        <h2 onclick="viewDisclaimer()">VIEW DISCLAIMER</h2>
+        <div class="fullDislcaimer" id="fullDislcaimer" >
+            <p class="fullDislcaimer" >By agreeing to sell through our website, 
+                you will effectively enter into an agreement that enables you to reach a wider audience. 
+                With this in mind, Hulela Hampers will be entiteled to 10% of revenue generated from products sold on the platform. This will include both administrative fees and platform fees.
+                <br><br>
+                Should we determine the partnership to be detrimental to the platform. You will be formally notified, and if no resolution can be
+                reached, Hulela Hampers reserves the right to unilaterally terminate the partnership. 
+                <br><br>
+                All partners will be expected to maintain avaialble stock and adhere to delivery procedures including timelines and delivery services. 
+                Should this not be the case, it will be the partners responsibility to notify Hulela Hampers in time, in order to maintain trust with end customer on the platform 
+                <br><br>
+                We aim to give all enterpreneurs an equal chance in business through our platform. Should this not be the case, we welcome any feedback to 
+                ensure we deliver the best service for both our sellers and buyers
+                <br><br>
+                We look forwward to receiving your application!
+
+                <p>
+            <img onclick="closeDisclaimer()" class="close" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+        </div>
+    </div>
+    <form>
+        <p class="disclaimer">PLEASE APPLY FOR ONE PRODUCT PER APPLICATION</p>
+        <input type="text" name="name" id="name" placeholder="Hulela Hampers"> </input><br>
+        <span class="p">NAME AND SURNAME </span><br><br>
+        <input type="tel" name="phone" id="phone" placeholder="0712345678">  </input><br>
+        <span class="p">CELLPHONE</span><br><br>
+        <input type="email" name="email" id="email" placeholder="email@example.com"></input><br>
+         <span class="p">EMAIL</span><br><br>
+        <input type="file" name="file" id="file"></input><br><br>
+        <input type="text" placeholder="R400" name="price" id="price"></input><br>
+        <span class="p"> PRICE </span>
+        
+        <br><br>
+        <input class="disclaimer" type="checkbox" required name="disclaimer" id="disclaimer"><br>
+        <p class="p-disclaimer"> I HAVE READ DISCLAIMER ABOVE </p>
+        <button type="submit"> APPLY</button>
+    </form>
+    <div class="bottom">
+       <a href="index.html"><img class="bottom" id="button" src="https://img.icons8.com/?size=100&id=83326&format=png&color=000000"></a>
+    </div>
+  </main>
+  <script src="sell_through_us.js"></script>
+</body>
+</html>

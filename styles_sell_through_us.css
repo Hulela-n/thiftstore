@@ -1,0 +1,99 @@
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:#942222
+}
+
+
+
+h1 {
+    background-color: orangered;
+    color: white;
+    margin: 5% 10% 0% 10% ;
+    padding: 4% 0% 4% 0%;
+    text-align: center;
+    border-radius:  2vw;
+}
+
+
+
+form {
+    background-color: blanchedalmond;
+    margin: 5% 0% 0% 0% ;
+    padding: 2% 2% 2% 2%;
+    border-radius: 2vw;
+}
+button {
+    margin: 0% 0% 0% 40% ;
+    padding: 2% 5% 2% 5%;
+}
+
+p.disclaimer {
+    font-size: 70%;
+    white-space: none;
+    color: red;
+    font-weight:900;
+    margin: 0% 0% 5% 0% ;
+    padding: 2% 5% 2% 5%;
+}
+
+span.p {
+    font-size: small;
+    text-align: center;
+}
+
+img.bottom {
+    margin: 10% 0% 0% 40% ;
+    padding: 0% 0% 0% 0%;
+    width: 20%;
+}
+
+
+h2 {
+    background-color: red;
+    color: white;
+    margin: 10% 20% 0% 20% ;
+    padding: 4% 0% 4% 0%;
+    text-align: center;
+    border-radius:  2vw;
+    font-size: medium;
+    font-weight:900 ;
+}
+
+input.disclaimer {
+    margin: 5% 0% 0% 50% ;
+    padding: 4% 0% 4% 0%;
+}
+
+p.p-disclaimer {
+    margin: 0% 0% 0% 0% ;
+    padding: 0% 0% 4% 0%;
+    font-size: x-small;
+    text-align:center;
+    color: red;
+}
+
+div.fullDislcaimer {
+    background-color: wheat;
+    border-radius: 1vw;
+    text-align:left;
+    font-size:small ;
+    display: none;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-top: 5%;
+
+}
+
+div.fullDislcaimer.show {
+    display: block;
+}
+
+img.close{
+    width: 10%;
+    margin: 5% 0% 4% 31% ;
+    padding: 3% 14% 3% 14%;
+}

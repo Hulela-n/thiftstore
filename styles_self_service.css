@@ -173,6 +173,18 @@ p.message3 {
 
 }
 
+
+p.message4 {
+    background-color: wheat;
+    border-radius: 1vw;
+    text-align:left;
+    font-size:small ;
+    display: none;
+    padding-top: 2%;
+    padding-left: 2%;
+
+}
+
 p.message1.show {
     display: block;
 }
@@ -184,6 +196,11 @@ p.message2.show {
 p.message3.show {
     display: block;
 }
+
+p.message4.show {
+    display: block;
+}
+
 
 img.closem {
     width: 10%;

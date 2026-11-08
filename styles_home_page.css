@@ -128,7 +128,7 @@ div.menu.slide {
 }
 
 img.close {
-        margin: 80% 0% 5% 90%;
+        margin: 80% 0% 5% 85%;
         padding: 0% 0% 0% 0%;
         width: 40%;
         height: 40%;
@@ -157,7 +157,7 @@ button.menu2 {
 
 button.menu3 {
         margin: 30% 0% 0% 15%;
-        padding: 20% 73% 20% 73%;
+        padding: 20% 70% 20% 73%;
         border-radius:  2vw;
         color: black;
         background-color: white;
@@ -167,3 +167,13 @@ button.menu3 {
 }
 
 
+button.menu4 {
+        margin: 30% 0% 0% 15%;
+        padding: 20% 36% 20% 40%;
+        border-radius:  2vw;
+        color: black;
+        background-color: white;
+        white-space: nowrap;
+        text-align: center;
+
+}
