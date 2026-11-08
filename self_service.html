@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Self-Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles_self_service.css"></link>
+</head>
+<body>
+  <main>
+    <div class="top">
+        <h1>SELF-SERVICE</h1>
+    </div>
+    <div class="FAQ">
+        <h2 class="faq">FAQ</h2>
+        <div class="FAQ-text" >
+            <p class="FAQ" style="margin-top: 10%;" onclick="showMessage1()">HOW LONG WILL MY DELIVERY TAKE?</p>
+                <p class="message1" id = "m1">Depending on which delivery option you chose, you should expect the following timelines: <br><br>
+                    Option1: <br>
+                    Option1: <br>
+                    Option1: <br><br>
+                    Should this not be the case, please talk to us below and we will get it resolved urgently<br><br>
+                <img onclick="closeM1()" class="closem" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+                </p>
+            <p class="FAQ" onclick="showMessage2()">WHAT IS OUR RETURN POLICY?</p>
+                <p class="message2" id = "m2">We offer cash refunds in cases where: <br><br>
+                1. Items are in perfect condition i.e have not been worn <br>
+                2. Refund claim has been lodged within a week of delivery <br>
+                3. Items have been sent to Hulela Hampers, reveiwed and approved for (1). This condition specifically may occur after the one week in which it was delivered <br><br>
+                
+                Should a refund be granted we will refund all costs incured, including delivery and shipping for assessment. <br><br>
+
+                Please note that we want to provide our customers with the best experience using our services. <br>
+                We are aware that customers may have real grievances  but to protect Hulela Hampers from fraudulent claims.
+                We will not refund procucts in these cases: <br><br>
+                
+                1. Wrong sizes (Please ensure you confirm and select correct sizes) <br><br>
+
+                Should customers want to exchange goods, they must meet refund policy. Any other questions may be directred in the
+                "Talk To Us" section <br><br>
+                <img onclick="closeM2()" class="closem" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+            </p>
+            <p class="FAQ" onclick="showMessage3()">SOMETHING WENT WRONG WITH MY ORDER</p>
+                <p class="message3" id = "m3">Please reach out to us in the "Talk To Us" section. <br><br>
+                    Please include details such as: <br><br>
+                    1. Product purchased<br>
+                    2. When it was purchased<br>
+                    3. Grievances in detail<br> 
+                    4. Order number<br><br>
+                <img onclick="closeM3()" class="closem" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+                </p>
+        </div>
+    </div>
+    <div class="suggestions" >
+        <h2 class="suggestions" onclick="showSuggestionBox()" id="suggestions">HAVE A SUGGESTION?</h2>
+            <div class="suggestion-input"  id="SBox">
+                <input class="suggestion-input-radio" type="radio" name="kind" required>PRODUCT</input>
+                <input class="suggestion-input-radio" type="radio" name="kind" required>SERVICE</input>
+                <input class="suggestion-input-radio" type="radio" name="kind" required>OTHERS</input><br>
+                <input class="suggestion-input-textbox" type="text" placeholder="TYPE HERE..."></input><br>
+                <button class="suggestion-input" type="submit">SUBMIT SUGGESTION</button><br><br>
+                <img onclick="closeSB()" class="close" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+            </div>
+    </div>
+    <div class="feedback">
+        <h2 class="feedback" onclick="talkToUS()">TALK TO US</h2>
+            <div class="feedback-input" id="FBox">
+                <input class="feedback-input" type="tel" placeholder="0712345678" required></input>
+                <p class="feedback-input" >CELLPHONE NUMBER</p>
+                <input class="feedback-input"  type="email" placeholder="email@example.com" required></input>
+                <p class="feedback-input">EMAIL ADDRESS</p>
+                <input class="feedback-input-textbox" type="text" placeholder="TYPE HERE..."></input><br>
+                <button class="feedback-input" type="submit">SUBMIT</button><br><br>
+                <img onclick="closeFB()" class="close" id="close" src="https://img.icons8.com/?size=100&id=23537&format=png&color=000000">
+            </div>
+    </div>
+     <div class="bottom">
+       <a href="index.html"><img class="bottom" id="button" src="https://img.icons8.com/?size=100&id=83326&format=png&color=000000"></a>
+    </div>
+  </main>
+  <script src="self_service.js"></script>
+</body>
+</html>

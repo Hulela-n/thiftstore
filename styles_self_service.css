@@ -1,0 +1,192 @@
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:#942222
+}
+
+
+
+h1 {
+    background-color: orangered;
+    color: white;
+    margin: 5% 10% 0% 10% ;
+    padding: 4% 0% 4% 0%;
+    text-align: center;
+    border-radius:  2vw;
+}
+
+
+h2 {
+    background-color: red;
+    color: white;
+    margin: 30% 20% 0% 20% ;
+    padding: 4% 0% 4% 0%;
+    text-align: center;
+    border-radius:  2vw;
+}
+
+h2.suggestions {
+    background-color: red;
+    color: white;
+    margin: 10% 20% 0% 20% ;
+    padding: 4% 0% 4% 0%;
+    text-align: center;
+    border-radius:  2vw;
+}
+
+h2.feedback {
+    background-color: red;
+    color: white;
+    margin: 10% 20% 0% 20% ;
+    padding: 4% 0% 4% 0%;
+    text-align: center;
+    border-radius:  2vw;
+}
+
+
+
+img.bottom {
+    margin: 20% 0% 0% 40% ;
+    padding: 0% 0% 0% 0%;
+    width: 20%;
+}
+
+p.FAQ {
+    background-color: white;
+    text-align: center;
+    font-size: small;
+    margin: 2% 4% 0% 4% ;
+    padding: 2% 0% 2% 0%;
+
+
+}
+
+div.suggestion-input {
+    background-color: wheat;
+    border-radius: 2vw;
+    margin: 4% 0% 0% 0% ;
+    padding: 0% 0% 0% 0%;
+    display: none;
+    
+}
+
+div.feedback-input {
+    background-color: wheat;
+    border-radius: 2vw;
+    margin: 4% 0% 0% 0% ;
+    padding: 0% 0% 0% 0%;
+    display: none;
+    
+}
+
+
+div.suggestion-input.show{
+    display: block;
+}
+
+div.feedback-input.show{
+    display: block;
+}
+
+
+button.suggestion-input {
+    margin: 4% 0% 4% 30% ;
+    padding: 3% 1% 3% 1%;
+    border-radius: 2vw;
+}
+
+input.suggestion-input-textbox {
+    margin: 4% 0% 0% 25% ;
+    padding: 4% 2% 4% 2%;
+    text-align: center;
+}
+
+input.feedback-input-textbox {
+    margin: 10% 0% 0% 25% ;
+    padding: 4% 2% 4% 2%;
+    text-align: center;
+}
+
+
+input.suggestion-input-radio {
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+p.feedback-input {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: small;
+}
+
+input.feedback-input {
+    margin: 4% 0% 0% 25% ;
+    padding: 1% 1% 1% 1%;
+    border-radius: 2vw;
+}
+
+button.feedback-input {
+    margin: 4% 0% 4% 30% ;
+    padding: 3% 14% 3% 14%;
+    border-radius: 2vw;
+}
+
+img.close {
+    width: 10%;
+    margin: 4% 0% 4% 31% ;
+    padding: 3% 14% 3% 14%;
+}
+
+p.message1 {
+    background-color: wheat;
+    border-radius: 1vw;
+    text-align: left;
+    font-size:small ;
+    display: none;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+p.message2 {
+    background-color: wheat;
+    border-radius: 1vw;
+    text-align:left;
+    font-size:small ;
+    display: none;
+    padding-top: 2%;
+    padding-left: 2%;
+
+}
+
+p.message3 {
+    background-color: wheat;
+    border-radius: 1vw;
+    text-align:left;
+    font-size:small ;
+    display: none;
+    padding-top: 2%;
+    padding-left: 2%;
+
+}
+
+p.message1.show {
+    display: block;
+}
+
+p.message2.show {
+    display: block;
+}
+
+p.message3.show {
+    display: block;
+}
+
+img.closem {
+    width: 10%;
+    margin: 5% 0% 4% 31% ;
+    padding: 3% 14% 3% 14%;
+}

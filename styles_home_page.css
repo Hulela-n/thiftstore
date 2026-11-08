@@ -113,7 +113,7 @@ div.menu {
     transform: translateX(-200%);
     transition: ease-in-out 1s;
     background-color: white;
-    margin: 0% 20% 0% 0ch;
+    margin: 0% 20% 0% 0%;
     padding: 20% 40% 200% 0%;
     border-radius: 2vw;
     background-color: #ab3636;
@@ -128,40 +128,42 @@ div.menu.slide {
 }
 
 img.close {
-    width: 20%;
-    height: 20%;
-}
-
-
-
-button.menu1 {
-        margin: 80% 0% 0% 10%;
-        padding: 15% 80% 15% 80%;
-        border-radius:  2vw;
-        color: black;
-        background-color: white;
-}
-
-button.menu2 {
-        margin: 30% 0% 0% 10%;
-        padding: 15% 80% 15% 80%;
-        border-radius:  2vw;
-        color: black;
-        background-color: white;
-}
-
-button.menu3 {
-        margin: 30% 0% 0% 10%;
-        padding: 20% 85% 20% 85%;
-        border-radius:  2vw;
-        color: black;
-        background-color: white;
-}
-
-
-img.close {
-        margin: 30% 0% 5% 90%;
+        margin: 80% 0% 5% 90%;
         padding: 0% 0% 0% 0%;
         width: 40%;
         height: 40%;
 }
+
+button.menu1 {
+        margin: 50% 0% 0% 15%;
+        padding: 20% 50% 20% 50%;
+        border-radius:  2vw;
+        color: black;
+        background-color: white;
+        white-space: nowrap;
+        text-align: center;
+
+}
+
+button.menu2 {
+        margin: 30% 0% 0% 15%;
+        padding: 20% 40% 20% 40%;
+        border-radius:  2vw;
+        color: black;
+        background-color: white;
+        white-space: nowrap;
+        text-align: center;
+}
+
+button.menu3 {
+        margin: 30% 0% 0% 15%;
+        padding: 20% 73% 20% 73%;
+        border-radius:  2vw;
+        color: black;
+        background-color: white;
+        white-space: nowrap;
+        text-align: center;
+
+}
+
+

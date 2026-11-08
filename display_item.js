@@ -8,5 +8,5 @@ if (item) {
 
 
 function back() {
-    window.location.href = 'home_page.html'
+    window.location.href = 'index.html'
 }
